@@ -4,21 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "format": "prettier --write *.js"
+    "format": "prettier --write src/*.js",
+    "start": "node src/CRUDBookNoDB.js",
+    "dev": "nodemon src/CRUDBookNoDB.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tonggg007/NodeREST.git"
+    "url": "git+https://github.com/s6406021621102/NodeREST.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tonggg007/NodeREST/issues"
+    "url": "https://github.com/s6406021621102/NodeREST/issues"
   },
-  "homepage": "https://github.com/Tonggg007/NodeREST#readme",
+  "homepage": "https://github.com/s6406021621102/NodeREST#readme",
   "devDependencies": {
+    "nodemon":"2.0.20",
     "prettier": "^2.8.3"
   },
   "dependencies": {
